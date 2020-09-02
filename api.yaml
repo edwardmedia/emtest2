@@ -716,7 +716,7 @@ objects:
                 description: |
                   Option to specify behavior when there is an error in the substitution checks.
 
-                  NOTE: this is always set to ALLOW_LOOSE for triggered builds and cannot be overridden
+                  NOTE this is always set to ALLOW_LOOSE for triggered builds and cannot be overridden
                   in the build configuration file.
                 properties:
                   - !ruby/object:Api::Type::Enum
